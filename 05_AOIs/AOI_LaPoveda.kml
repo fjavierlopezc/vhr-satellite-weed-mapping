@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="aoi_lapoveda" id="aoi_lapoveda">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="area_m2" type="float"></SimpleField>
+	<SimpleField name="area_ha" type="float"></SimpleField>
+	<SimpleField name="perimetro" type="float"></SimpleField>
+</Schema>
+<Folder><name>aoi_lapoveda</name>
+  <Placemark id="aoi_lapoveda.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aoi_lapoveda">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="area_m2">381493.53</SimpleData>
+		<SimpleData name="area_ha">38.15</SimpleData>
+		<SimpleData name="perimetro">2476.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-3.48687471613861,40.3128251495456 -3.48764925648746,40.3130338434767 -3.48791623305425,40.3130775273277 -3.488674913894,40.3131475850784 -3.49023210848215,40.3132704465543 -3.49133201886247,40.3135004969334 -3.49131547278784,40.3142943359772 -3.49133144806398,40.3159856496121 -3.49132287110009,40.3168534257181 -3.49037211727647,40.3173404066501 -3.48981108763572,40.3176258656921 -3.48943123170345,40.3177803947147 -3.4890834743359,40.3178764633124 -3.48850901620632,40.3181050718518 -3.48764786498166,40.3182651827501 -3.48660817385937,40.3184075455793 -3.48569253026623,40.3184853647535 -3.48199867558294,40.318843642617 -3.48185098396336,40.3187204983171 -3.4817747663137,40.3181944819185 -3.48180196823387,40.317968898578 -3.48183067047408,40.3178236815829 -3.48154666411873,40.3173468960416 -3.48134355962607,40.3170091805445 -3.48687471613861,40.3128251495456</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

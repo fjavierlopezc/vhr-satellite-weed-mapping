@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="poveda_25km2_aoi" id="poveda_25km2_aoi">
+	<SimpleField name="area" type="float"></SimpleField>
+</Schema>
+<Folder><name>poveda_25km2_aoi</name>
+  <Placemark id="poveda_25km2_aoi.1">
+	<name>Cuadrado 5km x 5km</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poveda_25km2_aoi">
+		<SimpleData name="area">26967544.171</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-3.52032927460839,40.2950939103518 -3.45932753151657,40.2949515372649 -3.45790888632839,40.3415484563621 -3.51973195031863,40.3415484563621 -3.52032927460839,40.2950939103518</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

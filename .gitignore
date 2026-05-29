@@ -1,0 +1,30 @@
+# Gitignore for ESA PP0106977 Weed Mapping Project
+
+# Ignore raw data downloads and processed image data
+00_downloads/
+01_img_data/
+02_STAC_catalog/
+
+# Ignore local datasets (Excel sheets) unless explicitly needed
+07_datasets/*.xlsx
+07_datasets/*.xls
+07_datasets/*.csv
+
+# Ignore outputs and results that are generated programmatically
+**/08_resultados/*.png
+**/08_resultados/*.jpg
+**/08_resultados/*.jpeg
+
+# Python and Jupyter Notebook files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.venv/
+venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
