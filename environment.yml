@@ -1,0 +1,23 @@
+name: esa-weed-mapping
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - geopandas
+  - rasterio
+  - fiona
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - scikit-image
+  - rasterstats
+  - pip
+  - pip:
+    - matplotlib-scalebar
+    - dataframe-image
