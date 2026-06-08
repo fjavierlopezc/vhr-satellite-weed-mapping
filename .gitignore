@@ -4,6 +4,7 @@
 00_downloads/
 01_img_data/
 02_STAC_catalog/
+04_bibliography/
 
 # Ignore local datasets (Excel sheets) unless explicitly needed
 07_datasets/*.xlsx
