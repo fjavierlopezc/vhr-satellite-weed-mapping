@@ -18,10 +18,10 @@ The project implements a structured three-step workflow:
 3. **Statistical & Predictive Analysis:** Spectral signature extraction and ANOVA & Tukey’s HSD post-hoc testing.
 
 ```
-+------------------+     +-----------------------+     +-----------------------------+
-| 1. INPUT DATA    | --> | 2. PREPROCESSING      | --> | 3. ANALYSIS & ML            |
-| (UAV, WV2, PS)   |     | (DOS1, Co-alignment)  |     | (ANOVA, Tukey HSD) |
-+------------------+     +-----------------------+     +-----------------------------+
++----------------+     +----------------------+     +--------------------+
+| 1. INPUT DATA  | --> | 2. PREPROCESSING     | --> | 3. ANALYSIS & ML   |
+| (UAV, WV2, PS) |     | (DOS1, Co-alignment) |     | (ANOVA, Tukey HSD) |
++----------------+     +----------------------+     +--------------------+
 ```
 
 ---
